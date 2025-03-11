@@ -5,7 +5,7 @@ exports.config = {
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
-    port:4723,
+    port: 4723,
     //
     // ==================
     // Specify Test Files
@@ -51,15 +51,15 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
+        // capabilities for local Appium web tests on an Android Emulator
         "platformName": "Android",
         "appium:deviceName": "D6BMDIMBIVONVW7X-rDwUSf",
         "appium:platformVersion": "14",
         "appium:app": "C:\\Users\\DELL\\Downloads\\ApiDemo.apk",
         "appium:automationName": "UiAutomator2",
         "appium:ignoreHiddenApiPolicyError": "true",
-        "appium:noReset": "true",
-        "appium:fullReset": "false"
-      }],
+        "appium:noReset": "true"
+    }],
 
     //
     // ===================
