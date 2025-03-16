@@ -298,4 +298,9 @@ exports.config = {
     * @param {object} params information about the assertion that was executed, including its results
     */
     // afterAssertion: function(params) {
+<<<<<<< HEAD
     // }
+=======
+    // }
+}
+>>>>>>> d0df99189eacb98737f87c7da8d28dad9bcb39dc
